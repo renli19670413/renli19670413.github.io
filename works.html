@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>胡同作品 · 任力</title>
+<meta name="description" content="任力的胡同作品：北京著名胡同的介绍与特色照片，含南锣鼓巷、国子监街、烟袋斜街、白塔寺、菊儿胡同等。">
+<meta name="theme-color" content="#f4f1ea">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%23a8462c'/><text x='16' y='23' font-size='18' font-family='serif' fill='white' text-anchor='middle'>任</text></svg>">
+<script>
+(function () {
+  document.documentElement.classList.add("js");
+  try {
+    var t = localStorage.getItem("site-theme");
+    if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">任</span>
+      <span>任力</span>
+    </a>
+    <nav aria-label="主导航">
+      <ul class="nav__links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我</a></li>
+        <li><a href="works.html" class="is-active" aria-current="page">胡同作品</a></li>
+        <li><a href="contact.html">联系方式</a></li>
+      </ul>
+    </nav>
+    <div class="nav__tools">
+      <button class="icon-btn theme-toggle" type="button" aria-label="切换主题">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.4M12 19v2.4M2.6 12H5M19 12h2.4M5.4 5.4L7 7M17 17l1.6 1.6M18.6 5.4L17 7M7 17l-1.6 1.6"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" type="button" aria-label="打开菜单" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="container page-head">
+    <p class="eyebrow reveal">胡同作品</p>
+    <h1 class="reveal">走到的胡同，都在这儿</h1>
+    <p class="lead reveal">8 条有名有姓的老胡同，一条一段介绍、一组照片。可按类别挑着看。照片都是我自己洗自己扫的，粗一点，但是真的。</p>
+  </section>
+
+  <section class="section" style="padding-top:26px">
+    <div class="container">
+      <div class="filters reveal" role="group" aria-label="按类别筛选胡同">
+        <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button class="filter" type="button" data-filter="story" aria-pressed="false">胡同介绍</button>
+        <button class="filter" type="button" data-filter="photo" aria-pressed="false">特色照片</button>
+        <button class="filter" type="button" data-filter="life" aria-pressed="false">市井生活</button>
+      </div>
+
+      <div class="works-grid">
+        <article class="work reveal" data-cat="story">
+          <a class="work__thumb t-1" href="#case-1" aria-label="南锣鼓巷">
+            <span class="work__no">01</span><span class="work__glyph">巷</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">胡同介绍</span>
+            <h3>南锣鼓巷</h3>
+            <p>元代就有了的东西主街，两边各四条胡同，一副完整的鱼骨格局。如今游客挤在主街上，老住户住在两边的支巷里。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2020 — 2025 · 介绍 1 篇 · 照片 46 张</p>
+            <a class="work__link" href="#case-1">读这段介绍 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="story">
+          <a class="work__thumb t-3" href="#case-1" aria-label="国子监街">
+            <span class="work__no">02</span><span class="work__glyph">槐</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">胡同介绍</span>
+            <h3>国子监街</h3>
+            <p>老名儿叫成贤街，北京唯一还留着过街牌楼的老街。牌楼、孔庙、国子监，加两排上百年的槐树。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2021 · 介绍 1 篇 · 照片 38 张</p>
+            <a class="work__link" href="#case-1">读这段介绍 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="photo">
+          <a class="work__thumb t-2" href="#case-2" aria-label="烟袋斜街">
+            <span class="work__no">03</span><span class="work__glyph">斜</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">特色照片</span>
+            <h3>烟袋斜街</h3>
+            <p>街不是正的，从东北斜到西南，两头细中间粗，老辈人说像一杆烟袋。这组照片专拍门脸和幌子。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2022 · 黑白胶片 · 照片 52 张</p>
+            <a class="work__link" href="#case-2">看这组照片 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="photo">
+          <a class="work__thumb t-6" href="#case-2" aria-label="白塔寺宫门口">
+            <span class="work__no">04</span><span class="work__glyph">塔</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">特色照片</span>
+            <h3>白塔寺宫门口</h3>
+            <p>妙应寺的白塔从一片灰瓦屋顶上冒出来。同一个角度拍了三年，配上下雪、槐花、蝉鸣和落叶四个季节。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2021 — 2024 · 四季同框 · 照片 60 张</p>
+            <a class="work__link" href="#case-2">看这组照片 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="life">
+          <a class="work__thumb t-4" href="#case-1" aria-label="五道营胡同">
+            <span class="work__no">05</span><span class="work__glyph">院</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">市井生活</span>
+            <h3>五道营胡同</h3>
+            <p>明代这里是兵营，叫五道营。如今一半是安静的小院，一半是年轻人开的小铺子，早上还有卖豆腐脑的推车。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2023 · 早市记录 · 照片 34 张</p>
+            <a class="work__link" href="#case-1">读这段介绍 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="story">
+          <a class="work__thumb t-5" href="#case-1" aria-label="菊儿胡同">
+            <span class="work__no">06</span><span class="work__glyph">新</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">胡同介绍</span>
+            <h3>菊儿胡同</h3>
+            <p>建筑界都知道的一条：老四合院拆改的「新四合院」试验就在这儿做的，拿过国际上的奖。我拍的是改造后住了三十年的样子。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2022 · 介绍 1 篇 · 照片 29 张</p>
+            <a class="work__link" href="#case-1">读这段介绍 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="story">
+          <a class="work__thumb t-1" href="#case-1" aria-label="砖塔胡同">
+            <span class="work__no">07</span><span class="work__glyph">砖</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">胡同介绍</span>
+            <h3>砖塔胡同</h3>
+            <p>因街口那座元代万松老人砖塔得名，不少书上说它是北京最老的胡同之一。老舍、鲁迅的母亲都在这儿住过。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2020 · 介绍 1 篇 · 照片 31 张</p>
+            <a class="work__link" href="#case-1">读这段介绍 →</a>
+          </div>
+        </article>
+
+        <article class="work reveal" data-cat="life">
+          <a class="work__thumb t-5" href="#case-2" aria-label="杨梅竹斜街">
+            <span class="work__no">08</span><span class="work__glyph">书</span>
+          </a>
+          <div class="work__body">
+            <span class="tag">市井生活</span>
+            <h3>杨梅竹斜街</h3>
+            <p>大栅栏前门那一带，旧书铺、刻字铺、老茶馆都在这儿聚过。如今铺子换了，门框上的字还在。</p>
+            <p style="font-size:.82rem;color:var(--muted)">2024 · 门脸与旧招牌 · 照片 41 张</p>
+            <a class="work__link" href="#case-2">看这组照片 →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 两条讲得细的 ========== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">细说两条</p>
+        <h2>一条看格局，一条看屋顶</h2>
+      </div>
+
+      <div style="margin-bottom:44px" id="case-1">
+        <div class="card reveal" style="padding:clamp(24px,3vw,38px)">
+          <span class="tag">01 · 南锣鼓巷</span>
+          <h3 style="margin-top:14px">鱼骨一样的格局，为什么七百年没变</h3>
+          <p>南锣鼓巷是条东西向的主街，七百多米长，两边各有四条南北向的胡同，每条胡同里再塞小支巷。主街是鱼身，八条胡同是鱼刺——这是元代定都时规划下来的格局，明清没动，民国没动，如今商业化反倒把它保住了。</p>
+          <p><strong>我怎么写这条：</strong>先照着旧地图把八条胡同的名字一个个对上号，再挑工作日早上走一遍——游客少，院里的人才肯跟你说话。我问了四位老住户：一位在分司厅住了五十三年，一位在福祥胡同生下来就没搬过。</p>
+          <p><strong>照片怎么拍：</strong>主街我只拍招牌和人流，真正的胡同味儿在支巷里：门墩、上马石、墙上缠成一团的电线、院里探出来的枣树。这组一共 46 张，其中 12 张是黑白胶片。</p>
+        </div>
+      </div>
+
+      <div id="case-2">
+        <div class="card reveal" style="padding:clamp(24px,3vw,38px)">
+          <span class="tag">04 · 白塔寺宫门口</span>
+          <h3 style="margin-top:14px">同一个角度，我站了三年</h3>
+          <p>宫门口二条往东走，白塔会在一片灰瓦屋顶后头忽然冒出来。妙应寺那座塔是元代尼泊尔匠人阿尼哥主持修的，北京最早、最大的藏式白塔。</p>
+          <p><strong>怎么拍的：</strong>找了一处能站上屋顶平台的邻楼，定了同一个位置、同一个焦段，每季去一次，一次只拍六张。三年十二次，回来把底片按季节编号。</p>
+          <p><strong>有意思的地方：</strong>前两年对面搬来几家咖啡馆，晚上开始亮灯。照片里的白塔一年比一年亮，屋顶上的太阳能热水器也一年比一年多。这些我都写进说明了——变化本身也是胡同的一部分。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container reveal" style="text-align:center">
+      <h2>整本相册在饼干盒里</h2>
+      <p style="color:var(--muted);max-width:52ch;margin-inline:auto">这 8 条只是挑出来的。剩下的底片、扫描件和手写笔记都在家，你要对哪条感兴趣，写信告诉我，我可以单独整理一份发你。</p>
+      <a class="btn btn--primary" href="contact.html">给我写信</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>© <span data-year>2026</span> 任力 · 走胡同，拍胡同，写胡同</div>
+    <div class="footer__links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于我</a>
+      <a href="contact.html">联系</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

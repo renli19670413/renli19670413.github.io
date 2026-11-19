@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>任力 · 走胡同，拍胡同，写胡同</title>
+<meta name="description" content="任力的个人网站：北京著名胡同的介绍与特色照片，一位闲散退休姥太爷的胡同记录。">
+<meta name="theme-color" content="#f4f1ea">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%23a8462c'/><text x='16' y='23' font-size='18' font-family='serif' fill='white' text-anchor='middle'>任</text></svg>">
+<script>
+(function () {
+  document.documentElement.classList.add("js");
+  try {
+    var t = localStorage.getItem("site-theme");
+    if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+})();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ========== 导航 ========== -->
+<header class="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">任</span>
+      <span>任力</span>
+    </a>
+    <nav aria-label="主导航">
+      <ul class="nav__links">
+        <li><a href="index.html" class="is-active" aria-current="page">首页</a></li>
+        <li><a href="about.html">关于我</a></li>
+        <li><a href="works.html">胡同作品</a></li>
+        <li><a href="contact.html">联系方式</a></li>
+      </ul>
+    </nav>
+    <div class="nav__tools">
+      <button class="icon-btn theme-toggle" type="button" aria-label="切换主题">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.4M12 19v2.4M2.6 12H5M19 12h2.4M5.4 5.4L7 7M17 17l1.6 1.6M18.6 5.4L17 7M7 17l-1.6 1.6"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" type="button" aria-label="打开菜单" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== Hero ========== -->
+<main>
+<section class="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__grid">
+    <div>
+      <span class="hero__hello"><i class="pulse"></i>你好，我是任力</span>
+      <h1>退休以后，<br>走遍了北京的<span>胡同</span>。</h1>
+      <p class="hero__role">如今的身份是「闲散退休姥太爷」，正经事就是遛弯。走着走着发现，一条胡同里有门牌、有槐树、有搬走的老邻居，也有说不完的从前——于是我开始拍下来，再写下来。</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="works.html">看看胡同
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="contact.html">跟我说话</a>
+      </div>
+    </div>
+    <div class="portrait reveal">
+      <span class="portrait__initials">任力</span>
+      <span class="portrait__chip"><i class="pulse"></i>常年在胡同里溜达</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat"><div class="stat__num">210+</div><div class="stat__label">条走过的胡同</div></div>
+      <div class="stat"><div class="stat__num">6000</div><div class="stat__label">张拍下的照片</div></div>
+      <div class="stat"><div class="stat__num">48</div><div class="stat__label">篇写成的介绍</div></div>
+      <div class="stat"><div class="stat__num">7</div><div class="stat__label">年不间断</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 日常三件事 ========== -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">我每天都干什么</p>
+      <h2>三件事，够忙一整天</h2>
+    </div>
+    <div class="grid-3">
+      <article class="card reveal">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6M11 20h2"/></svg>
+        </div>
+        <h3>走胡同</h3>
+        <p>早上七点出门，一条一条走。东城、西城走熟了，近年开始往宣武、崇文的老地界跑。哪条是鱼骨格局、哪条断了半截，脚底下比地图清楚。</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3.5 8.5h4l1.5-2h6l1.5 2h4v11h-17z"/><circle cx="12" cy="13.5" r="3.4"/></svg>
+        </div>
+        <h3>拍照片</h3>
+        <p>一台胶片相机配 35mm，一台数码备用。门簪、砖雕、墙上的电线、晒太阳的猫——拍的多是没人留意的地方，胶卷攒着，一季送一次冲洗。</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 4h9l5 5v11H5z"/><path d="M14 4v5h5M8 13h8M8 17h5"/></svg>
+        </div>
+        <h3>写掌故</h3>
+        <p>照片洗完，配一段文字：这条胡同叫什么、为什么叫这个名、哪年拆过、如今还剩谁。查不到的地方我就写「不知道」，不编。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 精选胡同 ========== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">精选胡同</p>
+      <h2>三条最常被人问起的</h2>
+    </div>
+    <div class="works-grid">
+      <article class="work reveal">
+        <a class="work__thumb t-1" href="works.html" aria-label="南锣鼓巷">
+          <span class="work__no">01</span>
+          <span class="work__glyph">巷</span>
+        </a>
+        <div class="work__body">
+          <span class="tag">胡同介绍</span>
+          <h3>南锣鼓巷</h3>
+          <p>元代就有了的东西主街，两边各四条胡同，像一副鱼骨。如今游客挤在中间那条，老住户住在两边。</p>
+          <a class="work__link" href="works.html">读这段介绍 →</a>
+        </div>
+      </article>
+      <article class="work reveal">
+        <a class="work__thumb t-6" href="works.html" aria-label="白塔寺一带">
+          <span class="work__no">02</span>
+          <span class="work__glyph">塔</span>
+        </a>
+        <div class="work__body">
+          <span class="tag">特色照片</span>
+          <h3>白塔寺宫门口</h3>
+          <p>妙应寺的白塔从一片灰瓦屋顶上冒出来。这组照片拍了三年，同一个角度，四个季节。</p>
+          <a class="work__link" href="works.html">看这组照片 →</a>
+        </div>
+      </article>
+      <article class="work reveal">
+        <a class="work__thumb t-3" href="works.html" aria-label="国子监街">
+          <span class="work__no">03</span>
+          <span class="work__glyph">槐</span>
+        </a>
+        <div class="work__body">
+          <span class="tag">胡同介绍</span>
+          <h3>国子监街</h3>
+          <p>北京唯一留着牌楼的老街。过街牌楼、孔庙、国子监，加两排老槐树，走一趟就明白什么叫「成贤街」。</p>
+          <a class="work__link" href="works.html">读这段介绍 →</a>
+        </div>
+      </article>
+    </div>
+    <a class="view-all" href="works.html">全部 8 条胡同
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ========== 结尾召唤 ========== -->
+<section class="section section--alt">
+  <div class="container reveal" style="display:flex;flex-wrap:wrap;gap:22px;align-items:center;justify-content:space-between">
+    <div>
+      <h2 style="margin-bottom:6px">想找某条胡同的老照片？</h2>
+      <p style="margin:0;color:var(--muted)">说个地名就行。我这儿也许正好有，也许能替你去走一趟。</p>
+    </div>
+    <a class="btn btn--primary" href="contact.html">给我写信</a>
+  </div>
+</section>
+</main>
+
+<!-- ========== 页脚 ========== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>© <span data-year>2026</span> 任力 · 走胡同，拍胡同，写胡同</div>
+    <div class="footer__links">
+      <a href="about.html">关于我</a>
+      <a href="works.html">胡同作品</a>
+      <a href="contact.html">联系</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
