@@ -150,8 +150,10 @@
         const body =
           "来自：" + name.value.trim() + " <" + email.value.trim() + ">\n\n" +
           message.value.trim();
+        // 收件地址以 base64 存放，避免明文出现在网页源码里被爬虫抓取
+        const to = form.dataset.toB64 ? atob(form.dataset.toB64) : "";
         const href =
-          "mailto:" + encodeURIComponent(form.dataset.to || "") +
+          "mailto:" + encodeURIComponent(to) +
           "?subject=" + encodeURIComponent(subject.value.trim() || "来自个人网站的留言") +
           "&body=" + encodeURIComponent(body);
         window.location.href = href;
